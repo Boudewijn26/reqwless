@@ -60,7 +60,7 @@ Currently, the supported SoCs are:
 Cargo.toml: 
 
 ```toml
-reqwless = { version = "0.12.0", default-features = false, features = ["esp-mbedtls", "log"] }
+reqwless = { git = "https://github.com/drogue-iot/reqwless", default-features = false, features = ["esp-mbedtls", "log"] }
 esp-mbedtls = { git = "https://github.com/esp-rs/esp-mbedtls.git",  features = ["esp32s3"] }
 ```
 <!-- TODO: Update this when esp-mbedtls switches to the unified hal -->
